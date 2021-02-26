@@ -3,7 +3,7 @@ version: ${project.version}
 main: me.skygod.crateloot.CrateLoot
 api-version: 1.16
 authors: [ SkyG0D ]
-description: sla
+description: Basic configurable plugin for loot crates.
 
 commands:
   sort-animation:
