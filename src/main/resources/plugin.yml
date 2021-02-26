@@ -1,0 +1,16 @@
+name: CrateLoot
+version: ${project.version}
+main: me.skygod.crateloot.CrateLoot
+api-version: 1.16
+authors: [ SkyG0D ]
+description: sla
+
+commands:
+  sort-animation:
+    usage: /sort-animation
+    description: Test for sort animation
+    permission: skygod.sort-animation
+  crates:
+    usage: /crates
+    description: Configuration to crates plugin
+    permission: skygod.crates
