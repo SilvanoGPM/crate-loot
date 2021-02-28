@@ -1,3 +1,5 @@
+<h1 align="center">Crate Loot</h1>
+
 <p align="center" >
   Plugin básico de caixas configuráveis.
 </p>
