@@ -20,7 +20,7 @@ Seguindo o passo a passo a seguir, você conseguirá registrar novas caixas.
 
 ![image](https://user-images.githubusercontent.com/59753526/109374451-210e2480-7894-11eb-8c7b-da8fb287d72f.png)
 
-- Pegue os itens para a caixa.
+- Pegue os itens para a caixa (mínimo de 5 itens).
 - Digite o comando `/crates` e clique em New crate.
 - Clique no item selecionado para ser a caixa.
 - Clique em Next.
@@ -28,7 +28,6 @@ Seguindo o passo a passo a seguir, você conseguirá registrar novas caixas.
 - Feche o inventário e pronto, a caixa foi adicionada.
 
 ![create](https://user-images.githubusercontent.com/59753526/109413873-69aa0880-798e-11eb-9912-86adb765973e.gif)
-<h1 align="center" >CrateLoot</h1>
 
 ## Pegando caixas registradas
 
@@ -47,6 +46,19 @@ Seguindo o passo a passo a seguir, você conseguirá remover caixas.
 - Clique na caixa que você quer remover e confirme.
 
 ![remove](https://user-images.githubusercontent.com/59753526/109413944-dd4c1580-798e-11eb-945d-a3c8e69f23f1.gif)
+
+## Alterando a configuração
+
+Dentro do diretório `plugins` é criado um diretório chamado `CrateLoot`, esse diretório contém algumas configurações para o plugin funcionar corretamente. O arquivo `crates.yml` contém todas as caixas registradas, já o arquivo `config.yml` contém algumas configurações básicas, que podem ser alteradas.
+
+### Propriedades do config.yml
+
+Propriedade        | Utilização
+------------------ | -------------------------
+inventory-full     | Mensagem quando o inventário do jogador estiver lotado.
+sorting            | Mensagem quando o jogador estiver abrindo uma crate.
+timeout            | Tempo de espera para abrir as crates.
+timeout-message    | Mensagem quando o jogador tentar utilizar a caixa ainda em cooldown.
 
 ## Contribuições
 
